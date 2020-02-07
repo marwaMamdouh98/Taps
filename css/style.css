@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* start style of tap*/
+.container{
+    margin: auto;
+    width: 70%;
+    
+}
+.tap{
+  margin-top: 40px; 
+    
+}
+/* style of items*/
+.tapItems{
+  overflow: auto;  
+}
+.tapItems .tapItem{
+    width: 33%;
+    float: left;
+    margin: auto;
+}
+.tapItems .tapItem button {
+   padding: 20px 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9e3150;
+    color: white;
+    
+}
+.tapItems .tapItem button:hover{
+    background-color: #88baa4;
+}
+
+/*style for show data*/
+#tapData {
+  overflow: auto;  
+}
+#tapData .showData{
+   width: 90%;
+    float: left;
+    margin: 1px;
+    background-color:#e07587 ;
+    border-radius: 10px;
+    
+}
+#tapData .showData p{
+    color: black;
+    padding: 30px;
+    font-size: 18px;
+    color: white;
+}
+.selectColor{
+    background-color: #e07587;
+}
+/*#e07587    #c1a16f    #910c29
+#ebcdc5    #443412  #88baa4*/
